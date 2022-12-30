@@ -1,0 +1,31 @@
+<additional>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet3S1" lane="85_0" length="331" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet3S2" lane="85_1" length="331" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet3S3" lane="85_2" length="331" pos="0.12"/>
+   
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet1W1" lane="78[0]_0" length="413" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet1W2" lane="56a_0" length="18" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet1W3" lane="56a_1" length="18" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet1W4" lane="56b_0" length="20" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet1W5" lane="56b_1" length="20" pos="0.12"/>
+   
+   
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet2E1" lane="31_1" length="11" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet2E2" lane="31_2" length="11" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet2E3" lane="133_0" length="157" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet2E4" lane="gneE0_0" length="603" pos="0.12"/>
+   
+   
+   
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet2W1" lane="46_0" length="66" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet2W2" lane="46_1" length="66" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet2W3" lane="46_2" length="66" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet2W4" lane="116_0" length="74" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet2W5" lane="109[1][1]_0" length="25" pos="0.12"/>
+   
+   
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet1E1" lane="77[0]_0" length="67" pos="0.12"/>
+   <laneAreaDetector file="incomingLoopDetectors.xml" freq="60" friendlyPos="x" id="areaDet1E2" lane="190_0" length="222" pos="0.12"/>
+   
+
+</additional>

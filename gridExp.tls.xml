@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sunday 03 July 2022 06:15:03 AM by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/skp/Downloads/After25Mar/cs2030TA/Bologna_small-0.29.0/acosta/veinSumo/vs1.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/skp/Downloads/After25Mar/cs2030TA/Bologna_small-0.29.0/acosta/veinSumo/vs1.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="0"/>
+        <junctions.limit-turn-speed value="-1"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<tls>
+							<!--   Normal Normal -->
+
+  <tlLogic id="B4" type="static" programID="N" offset="0">
+        <phase duration="25" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="20" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+      <tlLogic id="C4" type="static" programID="N" offset="0">
+        <phase duration="25" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="20" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+    <tlLogic id="B3" type="static" programID="N" offset="0">
+        <phase duration="25" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="20" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+      <tlLogic id="C3" type="static" programID="N" offset="0">
+        <phase duration="25" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="20" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+    
+                          <!--   Low Low -->
+   <tlLogic id="B4" type="static" programID="L" offset="0">
+        <phase duration="40" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="20" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+    
+    <tlLogic id="C4" type="static" programID="L" offset="0">
+        <phase duration="40" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="20" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+    <tlLogic id="B3" type="static" programID="L" offset="0">
+        <phase duration="40" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="20" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+    
+    <tlLogic id="C3" type="static" programID="L" offset="0">
+        <phase duration="40" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="20" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+    
+    
+    				<!--  Medium Medium -->
+    
+    <tlLogic id="B4" type="static" programID="M" offset="0">
+        <phase duration="30" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="30" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+    
+    <tlLogic id="C4" type="static" programID="M" offset="0">
+        <phase duration="30" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="30" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+    <tlLogic id="B3" type="static" programID="M" offset="0">
+        <phase duration="30" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="30" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+    
+    <tlLogic id="C3" type="static" programID="M" offset="0">
+        <phase duration="30" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="30" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+    
+    
+ 						 <!--   High High -->
+
+ 
+ 
+<tlLogic id="B4" type="static" programID="H" offset="0">
+        <phase duration="20" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="40" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+    
+    <tlLogic id="C4" type="static" programID="H" offset="0">
+        <phase duration="20" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="40" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+<tlLogic id="B3" type="static" programID="H" offset="0">
+        <phase duration="20" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="40" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+    
+    <tlLogic id="C3" type="static" programID="H" offset="0">
+        <phase duration="20" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="3"  state="yyyyyyrrrrrryyyyyyrrrrrr"/>
+        <phase duration="40" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="3"  state="rrrrrryyyyyyrrrrrryyyyyy"/>
+    </tlLogic>
+ 
+ 
+ 
+</tls>

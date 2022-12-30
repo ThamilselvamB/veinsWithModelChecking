@@ -1,0 +1,18 @@
+<routes>
+   <vType id="vtype0" accel="2.6" decel="4.5" sigma="0.5" length="2.5" minGap="2.5" maxSpeed="14" color="1,1,0"/>
+   <route id="route0" edges="85 72[0]"/>
+   <flow id="flow0" type="vtype0" route="route0" begin="0" period="5" number="5"/>
+   <flow id="flow1" type="vtype0" begin="0" period="3" number="0" from="78[0]" to="134b"/>
+   <flow id="flow12" type="vtype0" begin="0" period="2" number="100" from="78[0]" to="-gneE0"/>
+   <flow id="flow21" type="vtype0" begin="0" period="2" number="100" from="gneE0" to="77[1][1]"/>
+   
+   <flow id="flow12a" type="vtype0" begin="50" period="3" number="50" from="78[0]" to="-gneE0"/>
+   <flow id="flow21a" type="vtype0" begin="50" period="3" number="50" from="gneE0" to="77[1][1]"/>
+   
+   
+   <flow id="flow13" type="vtype0" begin="0" period="100" number="3" from="24" to="138"/>
+   <flow id="flow31" type="vtype0" begin="0" period="100" number="3" from="137" to="103"/>
+   <flow id="flow24" type="vtype0" begin="0" period="100" number="3" from="210" to="204[1][1]"/>
+   <flow id="flow42" type="vtype0" begin="0" period="100" number="3" from="203[0]" to="209"/>
+   
+</routes>
